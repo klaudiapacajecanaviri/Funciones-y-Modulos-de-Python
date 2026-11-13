@@ -10,15 +10,9 @@ def calcular_promedio(nota1, nota2, nota3):
     """Calcula y retorna el promedio de tres notas."""
 
     promedio = (nota1+nota2+nota3)/3
+    return promedio
 
-    print("el promedio es ", promedio)
-    pass
 
 def es_par(numero):
     """Retorna True si el número es par, o False si es impar."""
-
-    if numero % 2 == 0:
-        print ("True")
-    else:
-        print ("False")
-    pass
+    return numero % 2 == 0
